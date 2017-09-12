@@ -1,3 +1,25 @@
+#Backend for MovieGame
+
+Be sure to check out the movie game client:  https://github.com/softwaredeveloperca/moviegameinvue   (vue2 quasar framework)
+
+
+This is the backend for the movie game.   Clone this repo. It uses fast and stable new phpsocket.io please follow the instructions below to get your server started.  
+
+I reuse the existing chat example, navigate here:
+
+phpsocket.io/examples/chat/src   
+
+type:
+php start_io.php start
+
+
+The database is in mysql and can be found in the repo.  Be sure to install.
+
+The game itself can be found in: 
+phpsocket.io/src/Models/Game.php
+
+
+
 # phpsocket.io
 A server side alternative implementation of [socket.io](https://github.com/socketio/socket.io) in PHP based on [Workerman](https://github.com/walkor/Workerman).<br>
 
